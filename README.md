@@ -66,14 +66,17 @@ or occurs.
 
 * **queue**
   * Switches a stack to queue mode.
-  :arrow_forward: Opcodes preceeded by a `#` are tr\
+
+:arrow_forward: Opcodes preceeded by a `#` are tr\
 eated as comments and the corresponding line is i\
 gnored.
 
 :arrow_forward: Lines can be empty and can contai\
 n any number of spaces before or after an opcode \
 and its argument (only the first opcode and/or ar\
+
 gument is taken into account).
+
 ## :clipboard: Examples
 
 Note, Monty Interpreter runs in the default mode \
@@ -82,7 +85,8 @@ of STACK mode. Meaning it uses a stack. To switch\
 
 Push values onto the stack and print them all, or\
  the top of the stack/front of queue.
- ```
+
+```
 $ cat push_pall_pint.m
 push 1
 push 2
@@ -101,7 +105,8 @@ orms the operation on the top: `second_from_top /\
  top`, `second_from_top - top`, `etc`. Then assig\
 ns that to the `second_from_top` and pops the top\
  element off the stack.
- $ cat math.m
+```
+$ cat math.m
 push 3
 push 2
 push 1
@@ -143,6 +148,7 @@ $ ./monty queue.m
 2
 3
 ```
+
 ## :blue_book: Authors
 
 * **Ruth Mayenga** - [@mlle-kwamboka](https://gi\
